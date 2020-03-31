@@ -1,0 +1,37 @@
+{
+  "name": "ruuvi-samples",
+  "version": "0.1.0",
+  "description": "Node script to retrieve data samples (temperature, humidity, pressure, ...) from Ruuvi BLE tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregOriol/ruuvi-samples.git"
+  },
+  "keywords": [
+    "Ruuvi",
+    "RuuviTag",
+    "NodeJS"
+  ],
+  "author": "Gregory ORIOL",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/GregOriol/ruuvi-samples/issues"
+  },
+  "homepage": "https://github.com/GregOriol/ruuvi-samples#readme",
+  "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-5",
+    "@abandonware/noble": "^1.9.2-7",
+    "async": "^2.6.1",
+    "http": "0.0.0",
+    "noble": "^1.9.1",
+    "npm": "^6.4.0",
+    "querystring": "^0.2.0",
+    "ruuvi.endpoints.js": "github:ruuvi/ruuvi.endpoints.js"
+  },
+  "engines": {
+    "node": "^8.0"
+  }
+}
